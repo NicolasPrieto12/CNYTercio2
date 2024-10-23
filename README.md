@@ -26,19 +26,8 @@ Para ejecutar este código, necesitas tener instalados los siguientes paquetes d
 - math
 
 ## Ejemplos de uso
-from my_module import *
+![image](https://github.com/user-attachments/assets/dba672bd-26d0-4c9c-b554-6f2eb7c26496)
 
-# Ejemplo de probabilidad de posición
-print(probabilidad_posicion([2 + 1j, -1 + 2j, 1j, 1, 3 - 1j, 2, -2j, -2 + 1j, 1 - 3j, -1j], 9))
-
-# Ejemplo de probabilidad de transición
-print(probabilidad_transicion([1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]))
-
-# Ejemplo de verificación de hermiticidad
-print(es_hermitiana([[1, 1], [1, -1]]))
-
-# Ejemplo de cálculo de valor medio
-print(valor_medio([[1, -1j], [1j, 2]], [math.sqrt(2) / 2, (math.sqrt(2) / 2 * 1j)]))
 
 
 
